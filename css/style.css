@@ -1,0 +1,69 @@
+.bs23-weather-widget{
+	font-size: 11px;
+	color: #fff;
+	background: url('../images/bg.jpg');
+	background-size: cover;
+	padding: 10px;
+	position: relative;
+
+}
+.bs23-weather-widget .menu{
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	position: absolute;
+	top: 10px; right: 10px;
+}
+
+.bs23-weather-widget ul{
+	width:80px;
+	position: absolute;
+	top: 30px; right: 10px;
+	display: none;
+}
+.bs23-weather-widget ul li{
+	display: block;
+	border: 1px solid #fff;
+	padding: 2px;
+	cursor: pointer;
+}
+.bs23-weather-widget ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+.bs23-weather-widget ul li a:hover{
+	color:pink;
+	border-bottom: 0;
+	text-decoration: none;
+}
+.bs23-weather-widget p{
+	margin-bottom: 0;
+}
+
+.bs23-weather-widget td{
+	text-align: center;
+}
+
+.bs23-weather-widget .min{
+	color: #999;
+}
+
+.bs23-weather-widget img, .bs23-weather-widget .temp{
+	vertical-align: middle;
+}
+
+.bs23-weather-widget .location{
+	font-size: 42px;
+	color: #fff;
+}
+
+
+.bs23-weather-widget .status{
+	font-size: 28px;
+	color: #ccc;
+}
+
+.bs23-weather-widget .temp{
+	font-size: 36px;
+	color: #fff;
+}
